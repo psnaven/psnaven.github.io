@@ -46,6 +46,11 @@ p.small {
   font-size: 11px;
 }
 
+.sourceInfo {
+  font-size: 11px;
+  color: #7f7f7f;
+}
+
 @media all and (max-width: 700px) {
   table.compatibility, div.box {
     float: none;
