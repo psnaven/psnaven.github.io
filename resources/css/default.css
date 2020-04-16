@@ -58,3 +58,25 @@ p.small {
     margin: 0;
   }
 }
+
+/** World box styles START **/
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.worldColumn {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 100px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.worldRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/** World box styles END **/
